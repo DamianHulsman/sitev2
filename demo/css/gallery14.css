@@ -1,0 +1,18 @@
+.imageBox {
+    float: left;
+    padding: 15px;
+    width: 140px;
+    height: 120px;
+}
+.galleryTumb{
+    border: solid #fff 8px;
+    height: 90px;
+    max-width: 130px;
+}
+.Tumb_Alt{
+    font: 10px "Arial";
+    text-align: left;
+    padding-left: 10px;
+    width: inherit;
+    color: #ffffff;
+}
