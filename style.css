@@ -4,6 +4,10 @@
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
+#body
+{
+    transition: 0.5s;
+}
 .nav {
     display: flex;
     justify-content: center;
@@ -31,4 +35,18 @@
 }
 .websitelogo {
     border-radius: 10px;
+}
+.darkmodebutton
+{
+    border: black 3px solid;
+    border-radius: 5px;
+}
+.lightmodebutton
+{
+    border: black 3px solid;
+    border-radius: 5px;
+}
+.websitetitle
+{
+    text-shadow:rgb(00, 255, 255 ) 2px 2px 2px;
 }
