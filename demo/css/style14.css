@@ -1,0 +1,132 @@
+header, footer{
+    color: white;  
+}
+#container{
+    width: 100%;
+    margin: auto;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+}
+header{
+    background-color: navy;
+    color: white;
+    text-align: center;
+    font-size: 200%;
+    font-weight: normal;
+    padding: 10px;
+    border: 5px #00ffff groove
+}
+nav{
+    background-color: rgb(00, 255, 255 );
+}
+footer{
+    text-align: left;
+    font-size: 80%;
+    padding: 4px;
+    color:rgb(0, 153, 255)
+}
+main{
+    flex:1;
+}
+#left {
+    flex: 1;
+    background-image: url('images/phonetech.jpg');
+    float: left;
+    width: 10%;
+    height: 580px;
+}
+#middle {
+    flex: 8;
+    background-color: rgb(0,0,255);
+    float: left;
+    width: 80%;
+    height: 580px;
+}
+#right {
+    flex: 1;
+    background-color:rgba(25, 255, 10, 0.5);
+    float: left;
+    width: 10%;
+    height: 580px;
+}
+body {
+    font-family: Verdana;
+    margin: 1;
+    background-color: rgb(00,00,00)
+}
+.image{
+    width: 250px;
+    height: 166px;
+    
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url("./Fonts/minecraft.ttf");
+}
+@font-face {
+    font-family: Minecraftalt;
+    src: url("../Fonts/Minecrafter.Alt.ttf");
+}
+@font-face {
+    font-family: Minecraftreg;
+    src: url("../Fonts/Minecrafter.Reg.ttf");
+}
+@font-face {
+    font-family: LemonadaReg;
+    src: url("../Fonts/Lemonada-Regular.ttf");
+}
+@font-face {
+    font-family: LemonadaBold;
+    src: url("../Fonts/Lemonada-Bold.ttf");
+}
+@font-face {
+    font-family: LemonadaLight;
+    src: url("../Fonts/Lemonada-Light.ttf");
+}
+@font-face {
+    font-family: LemonadaSemiBold;
+    src: url("../Fonts/Lemonada-SemiBold.ttf");
+}
+
+.title{
+    font-family: LemonadaRe g;
+}
+.sideimage{
+    width: 100%;
+    height: 580px;
+}
+.imagegallery{
+    text-align: center;
+    width: 50%;
+    background-color:rgb(00, 255, 255 );
+    padding-top: 20px;
+    border: solid blue;
+}
+.form{
+    color: white;
+}
+.pageheader{
+    color: white;
+    text-shadow: #00ffff 1.5px 1.5px 1.5px;
+}
+.audiodiv{
+    color: white;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border: rgb(00, 255, 255 ) 3px groove;
+    border-radius: 10px;
+}
+.audioheader{
+    margin-left: 25px;
+    text-shadow:rgb(00, 255, 255 ) 2px 2px 2px;
+}
+.audio{
+    transition: 0.5s;
+    border-radius: 10px;
+    margin: 10px;
+}
+.audio:hover{
+    background-color: aqua;
+}
