@@ -50,3 +50,12 @@
 {
     text-shadow:rgb(00, 255, 255 ) 2px 2px 2px;
 }
+
+.darkmodebutton:hover
+{
+    text-shadow:rgb(00, 255, 255 ) 2px 2px 2px;
+}
+.lightmodebutton:hover
+{
+    text-shadow:rgb(00, 255, 255 ) 2px 2px 2px;
+}
