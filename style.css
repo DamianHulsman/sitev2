@@ -40,11 +40,13 @@
 {
     border: black 3px solid;
     border-radius: 5px;
+    transition: 0.5s;
 }
 .lightmodebutton
 {
     border: black 3px solid;
     border-radius: 5px;
+    transition: 0.5s;
 }
 .websitetitle
 {
