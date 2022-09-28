@@ -5,16 +5,19 @@
     <title>DamianHulsman.com</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="Chrome.ico">
+    <script src="script.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="icon" href="images/logo.png">
 </head>
-<body>
+<body id="body">
 <div class="nav outline outline-offset-0">
     <nav>
-        <a class="text-3xl font-bold">DamianHulsman.com</a>
+        <a class="text-3xl font-bold websitetitle">DamianHulsman.com</a>
+        <button class="darkmodebutton" id="darkmodebutton" onclick="darkmode()">darkmode</button>
+        <button class="lightmodebutton" id="lightmodebutton" onclick="lightmode()">lightmode</button>
     </nav>
 </div>
-<div class="main-content">
+<div class="main-content body">
     <div class="logo">
         <img src="Windows_gigabyte_blue.jpg" class="websitelogo">
         <a href="api/index.html">
